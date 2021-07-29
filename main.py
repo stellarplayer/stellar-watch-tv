@@ -3,7 +3,7 @@ import StellarPlayer
 import os
 import shutil
 import traceback
-from weishi.m3uParse import m3uParse
+from .m3uParse import m3uParse
 class weishiplugin(StellarPlayer.IStellarPlayerPlugin):
     def __init__(self,player:StellarPlayer.IStellarPlayer):
         super().__init__(player)
