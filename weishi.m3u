@@ -1,0 +1,65 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="http://p1.img.cctvpic.com/photoAlbum/page/performance/img/2016/1/25/1453690621284_114.png" tvg-name="CCTV1" ,CCTV-1综合HD
+http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8
+#EXTINF:-1 ,湖南卫视高清
+http://ivi.bupt.edu.cn/hls/hunanhd.m3u8
+#EXTINF:-1 ,CCTV-2财经
+http://ivi.bupt.edu.cn/hls/cctv2.m3u8
+#EXTINF:-1 ,浙江卫视高清
+http://ivi.bupt.edu.cn/hls/zjhd.m3u8
+#EXTINF:-1 ,CCTV-3综艺
+http://ivi.bupt.edu.cn/hls/cctv3hd.m3u8
+#EXTINF:-1 ,江苏卫视高清
+http://ivi.bupt.edu.cn/hls/jshd.m3u8
+#EXTINF:-1 ,CCTV-4国际
+http://ivi.bupt.edu.cn/hls/cctv4.m3u8
+#EXTINF:-1 ,东方卫视高清
+http://ivi.bupt.edu.cn/hls/dfhd.m3u8
+#EXTINF:-1 ,CCTV-5体育
+http://ivi.bupt.edu.cn/hls/cctv5hd.m3u8
+#EXTINF:-1 ,安徽卫视高清
+http://ivi.bupt.edu.cn/hls/ahhd.m3u8
+#EXTINF:-1 ,CCTV-6高清
+http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8
+#EXTINF:-1 ,深圳卫视高清
+http://ivi.bupt.edu.cn/hls/szhd.m3u8
+#EXTINF:-1 ,CCTV-7军事农业
+http://ivi.bupt.edu.cn/hls/cctv7.m3u8
+#EXTINF:-1 ,广东卫视
+http://ivi.bupt.edu.cn/hls/gdtv.m3u8
+#EXTINF:-1 ,CCTV-8高清
+http://ivi.bupt.edu.cn/hls/cctv8hd.m3u8
+#EXTINF:-1 ,湖北卫视高清
+http://ivi.bupt.edu.cn/hls/hbhd.m3u8
+#EXTINF:-1 ,CCTV-9纪录
+http://ivi.bupt.edu.cn/hls/cctv9.m3u8
+#EXTINF:-1 ,深圳卫视
+http://ivi.bupt.edu.cn/hls/sztv.m3u8
+#EXTINF:-1 ,CCTV-10科教
+http://ivi.bupt.edu.cn/hls/cctv10.m3u8
+#EXTINF:-1 ,重庆卫视高清
+http://ivi.bupt.edu.cn/hls/cqhd.m3u8
+#EXTINF:-1 ,CCTV-11戏曲
+http://ivi.bupt.edu.cn/hls/cctv11.m3u8
+#EXTINF:-1 ,江苏卫视
+http://ivi.bupt.edu.cn/hls/jstv.m3u8
+#EXTINF:-1 ,CCTV-12社会与法
+http://ivi.bupt.edu.cn/hls/cctv12.m3u8
+#EXTINF:-1 ,厦门卫视
+http://ivi.bupt.edu.cn/hls/xmtv.m3u8
+#EXTINF:-1 ,CCTV-13新闻
+http://ivi.bupt.edu.cn/hls/cctv13.m3u8
+#EXTINF:-1 ,四川卫视
+http://ivi.bupt.edu.cn/hls/sctv.m3u8
+#EXTINF:-1 ,CCTV-14少儿
+http://ivi.bupt.edu.cn/hls/cctv14.m3u8
+#EXTINF:-1 ,天津卫视
+http://ivi.bupt.edu.cn/hls/tjtv.m3u8
+#EXTINF:-1 ,CCTV-15音乐
+http://ivi.bupt.edu.cn/hls/cctv15.m3u8
+#EXTINF:-1 ,东方卫视
+http://ivi.bupt.edu.cn/hls/dftv.m3u8
+#EXTINF:-1 ,CCTV-5+体育
+http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8
+#EXTINF:-1 ,龙上频道
+http://live.cjyun.org/video/s10008-ls2018s/index.m3u8
