@@ -27,7 +27,7 @@ class weishiplugin(StellarPlayer.IStellarPlayerPlugin):
 
         controls = [{'type':'space','height':15}, [{'type':'space','width':15},{'type':'list','name':'list1','itemheight':36,'itemlayout':list_item_layout,'value':self.list_weishi_name,'width':1,'marginSize':5}]]
 
-        result, controls = self.player.doModal('test', 400, 600, 'UI maker in python', controls)
+        result, controls = self.player.doModal('test', 400, 600, '', controls)
         print(f'{result=},{controls=}')
 
     def onListItemClick(self, page, control, item):
