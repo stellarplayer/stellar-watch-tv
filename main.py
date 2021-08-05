@@ -42,7 +42,7 @@ class weishiplugin(StellarPlayer.IStellarPlayerPlugin):
             ]
         ]
 
-        result, controls = self.player.doModal('test', 400, 600, '¿´µçÊÓ', controls)
+        result, controls = self.player.doModal('test', 400, 600, 'æˆ‘è¦çœ‹ç”µè§†', controls)
         print(f'{result=},{controls=}')
 
     def onListItemClick(self, page, control, item):
