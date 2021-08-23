@@ -1,65 +1,100 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="http://p1.img.cctvpic.com/photoAlbum/page/performance/img/2016/1/25/1453690621284_114.png" tvg-name="CCTV1" ,CCTV-1综合
-http://39.135.138.60:18890/PLTV/88888910/224/3221225618/index.m3u8  
-#EXTINF:-1 ,湖南卫视
-http://ivi.bupt.edu.cn/hls/hunanhd.m3u8 
+#EXTINF:-1 tvg-logo="http://p1.img.cctvpic.com/photoAlbum/page/performance/img/2016/1/25/1453690621284_114.png" tvg-name="CCTV1" ,CCTV-1综合HD
+http://39.135.138.60:18890/PLTV/88888910/224/3221225618/index.m3u8
+#EXTINF:-1 ,湖南卫视高清
+http://hbpx.chinashadt.com:2036/live/px5.stream/playlist.m3u8 
+
 #EXTINF:-1 ,CCTV-2财经
-http://39.135.138.60:18890/PLTV/88888910/224/3221225619/index.m3u8 
-#EXTINF:-1 ,浙江卫视
-http://39.135.138.59:18890/PLTV/88888910/224/3221225659/index.m3u8 
+http://39.135.138.60:18890/PLTV/88888910/224/3221225619/index.m3u8
+#EXTINF:-1 ,浙江卫视高清
+http://39.135.138.59:18890/PLTV/88888910/224/3221225659/index.m3u8
+
 #EXTINF:-1 ,CCTV-3综艺
 http://39.135.138.60:18890/PLTV/88888910/224/3221225634/index.m3u8
-#EXTINF:-1 ,江苏卫视
-http://ivi.bupt.edu.cn/hls/jshd.m3u8
+#EXTINF:-1 ,江苏卫视高清
+http://117.169.120.140:8080/live/hdjiangsustv/.m3u8
+
 #EXTINF:-1 ,CCTV-4国际
-http://39.135.138.60:18890/PLTV/88888910/224/3221225621/index.m3u8  
-#EXTINF:-1 ,东方卫视
-http://ivi.bupt.edu.cn/hls/dfhd.m3u8
+http://39.135.138.60:18890/PLTV/88888910/224/3221225621/index.m3u8
+#EXTINF:-1 ,东方卫视高清
+http://39.135.138.59:18890/PLTV/88888910/224/3221225659/index.m3u8
+
 #EXTINF:-1 ,CCTV-5体育
 http://39.135.138.60:18890/PLTV/88888910/224/3221225633/index.m3u8
-#EXTINF:-1 ,安徽卫视
-http://ivi.bupt.edu.cn/hls/ahhd.m3u8
-#EXTINF:-1 ,CCTV-6电影
-http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8
-#EXTINF:-1 ,深圳卫视
-http://ivi.bupt.edu.cn/hls/szhd.m3u8
+#EXTINF:-1 ,安徽卫视高清
+http://223.110.245.143/ott.js.chinamobile.com/PLTV/3/224/3221225800/index.m3u8
+
+#EXTINF:-1 ,CCTV-6高清
+http://39.135.138.60:18890/PLTV/88888910/224/3221225632/index.m3u8
+#EXTINF:-1 ,深圳卫视高清
+http://117.169.120.140:8080/live/hdshenzhenstv/.m3u8
+
 #EXTINF:-1 ,CCTV-7军事农业
-http://ivi.bupt.edu.cn/hls/cctv7.m3u8
-#EXTINF:-1 ,广东卫视
-http://ivi.bupt.edu.cn/hls/gdtv.m3u8
-#EXTINF:-1 ,CCTV-8电视剧
+http://39.135.138.60:18890/PLTV/88888910/224/3221225624/index.m3u8
+#EXTINF:-1 ,NewTV动画王国  
+http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221225555/index.m3u8
+
+#EXTINF:-1 ,CCTV-8高清
 http://117.169.124.36:6610/ysten-businessmobile/live/cctv-8/1.m3u8
-#EXTINF:-1 ,湖北卫视
+#EXTINF:-1 ,湖北卫视高清
 http://223.110.243.171/PLTV/3/224/3221227211/index.m3u8
+
 #EXTINF:-1 ,CCTV-9纪录
 http://39.135.138.60:18890/PLTV/88888910/224/3221225626/index.m3u8
 #EXTINF:-1 ,深圳卫视
 http://39.134.115.163:8080/PLTV/88888910/224/3221225741/index.m3u8
+
 #EXTINF:-1 ,CCTV-10科教
 http://39.135.138.58:18890/PLTV/88888910/224/3221225627/index.m3u8
-#EXTINF:-1 ,重庆卫视
-http://ivi.bupt.edu.cn/hls/cqhd.m3u8
+#EXTINF:-1 ,TVB星河  
+http://50.7.161.82:8278/streams/d/Xinhe/playlist.m3u8
+
 #EXTINF:-1 ,CCTV-11戏曲
-http://ivi.bupt.edu.cn/hls/cctv11.m3u8
+http://39.135.138.58:18890/PLTV/88888910/224/3221225628/index.m3u8
 #EXTINF:-1 ,江苏卫视
-http://ivi.bupt.edu.cn/hls/jstv.m3u8
+http://117.169.120.140:8080/live/hdjiangsustv/.m3u8
+
 #EXTINF:-1 ,CCTV-12社会与法
 http://39.135.138.60:18890/PLTV/88888910/224/3221225629/index.m3u8 
-#EXTINF:-1 ,厦门卫视
-http://ivi.bupt.edu.cn/hls/xmtv.m3u8
-#EXTINF:-1 ,CCTV-13新闻
-http://ivi.bupt.edu.cn/hls/cctv13.m3u8
-#EXTINF:-1 ,四川卫视
-http://ivi.bupt.edu.cn/hls/sctv.m3u8
-#EXTINF:-1 ,CCTV-14少儿
-http://ivi.bupt.edu.cn/hls/cctv14.m3u8
 #EXTINF:-1 ,天津卫视
-http://ivi.bupt.edu.cn/hls/tjtv.m3u8
+http://117.169.120.140:8080/live/hdtianjinstv/.m3u8
+
+#EXTINF:-1 ,CCTV-13新闻
+http://39.135.138.60:18890/PLTV/88888910/224/3221225638/index.m3u8
+#EXTINF:-1 ,东方影视FHD  
+http://140.207.241.2:8080/live/program/live/dsjpdhd/4000000/mnf.m3u8
+
+#EXTINF:-1 ,CCTV-14少儿
+http://39.135.138.60:18890/PLTV/88888910/224/3221225639/index.m3u8
+#EXTINF:-1 ,NewTV爱情喜剧  
+http://39.134.66.66/PLTV/88888888/224/3221225533/index.m3u8
+
 #EXTINF:-1 ,CCTV-15音乐
-http://ivi.bupt.edu.cn/hls/cctv15.m3u8
+http://39.135.138.60:18890/PLTV/88888910/224/3221225641/index.m3u8
 #EXTINF:-1 ,东方卫视
 http://ivi.bupt.edu.cn/hls/dftv.m3u8
+
 #EXTINF:-1 ,CCTV-5+体育
 http://39.135.138.60:18890/PLTV/88888910/224/3221225649/index.m3u8 
-#EXTINF:-1 ,新疆卫视
-http://ivi.bupt.edu.cn/hls/xjtv.m3u8
+#EXTINF:-1 ,NewTV超级体育
+http://39.134.66.66/PLTV/88888888/224/3221225635/index.m3u8
+
+#EXTINF:-1 ,NewTV动画王国  
+http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221225555/index.m3u8
+#EXTINF:-1 ,SiTV动漫秀场 1080  
+http://140.207.241.2:8080/live/program/live/dmxchd/4000000/mnf.m3u8 
+
+#EXTINF:-1 ,SiTV游戏风云
+http://140.207.241.2:8080/live/program/live/yxfyhd/4000000/mnf.m3u8
+#EXTINF:-1 ,凤凰卫视高清
+http://223.110.245.139/PLTV/3/224/3221226922/index.m3u8 
+
+#EXTINF:-1 ,翡翠台  
+http://198.16.106.62:8278/streams/d/Wlt/playlist.m3u8
+#EXTINF:-1 ,BBC 1  
+http://93.190.139.35:8278/streams/d/bbc1_antik/playlist.m3u8
+
+#EXTINF:-1 ,Blue 美剧频道  
+http://210.210.155.35:80/session/676c25ba-724e-11e9-834b-8ac28bf32f5a/dr9445/h/h16/02.m3u8
+#EXTINF:-1 ,HBO台湾  
+http://198.16.106.62:8278/streams/d/sundance_twn/playlist.m3u8 

@@ -47,6 +47,7 @@ class m3uParse:
 
 
     def openFile(self, m3u_file_name):
+        self.m3uList = []
         m3u_file_obj = open(m3u_file_name, "r", encoding="utf8")
         self.m3u_dump(m3u_file_obj)
         m3u_file_obj.close()
@@ -70,3 +71,4 @@ if __name__ == "__main__":
     tkeys = [i['weishi'] for i in tmp]
     tmp2 = [{'weishi':tkeys[i], 'weishi1':tkeys[i + 1]} for i in range(0, len(tkeys), 2)]
     print(tmp2)
+    print(len(tmp2))
