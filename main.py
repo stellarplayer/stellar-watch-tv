@@ -38,8 +38,9 @@ class weishiplugin(StellarPlayer.IStellarPlayerPlugin):
             {'type':'space','height':15}, 
             [
                 {'type':'space','width':15},
-                {'type':'list','name':'list1','itemheight':36,'itemlayout':list_item_layout,'value':self.list_weishi_name,'width':1,'marginSize':5}
-            ]
+                {'type':'list','name':'list1','itemheight':36,'itemlayout':list_item_layout,'value':self.list_weishi_name,'width':0.95,'marginSize':5}
+            ],
+             {'type':'space','height':22}
         ]
 
         result, controls = self.player.doModal('test', 400, 600, '我要看电视', controls)
