@@ -1,4 +1,5 @@
 name=看电视
 description=第三方电视源
-version=4
+version=5
 url=https://github.com/stellarplayer/stellar-watch-tv
+type=在线播放
