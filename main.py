@@ -22,28 +22,35 @@ class weishiplugin(StellarPlayer.IStellarPlayerPlugin):
 
         list_item_layout = [
             [
-                {'type': 'space', 'width': 10},
+                {'type': 'space', 'width': 5},
                 {
                     'group': [
-                        {'type': 'button', 'name': 'weishi', 'textColor': '#FFFFFFE6', 'fontSize': 20,'width': 0.5,'matchParent':True}, 
-                        {'type':'space','width':10},
-                        {'type': 'button', 'name': 'weishi1', 'textColor': '#FFFFFFE6', 'fontSize': 20,'width': 0.5,'matchParent':True},
-                        {'type':'space','width':10}
+                        {'type': 'button', 'name': 'weishi', 'textColor': '#FFFFFFE6', 'fontSize': 16,'matchParent':True}, 
+                        {'type':'space','width':6},
+                        {'type': 'button', 'name': 'weishi1', 'textColor': '#FFFFFFE6', 'fontSize': 16,'matchParent':True},
+                        {'type':'space','width':6},
+                        {'type': 'button', 'name': 'weishi2', 'textColor': '#FFFFFFE6', 'fontSize': 16,'matchParent':True},
+                        {'type':'space','width':6},
+                        {'type': 'button', 'name': 'weishi3', 'textColor': '#FFFFFFE6', 'fontSize': 16,'matchParent':True},
+                        {'type':'space','width':6},
+                        {'type': 'button', 'name': 'weishi4', 'textColor': '#FFFFFFE6', 'fontSize': 16,'matchParent':True},
+                        {'type':'space','width':6}
                     ], 'dir': 'hertical'
                 }
             ]
         ]
 
         controls = [
-            {'type':'space','height':15}, 
+            {'type':'space','height':10}, 
             [
-                {'type':'space','width':15},
-                {'type':'list','name':'list1','itemheight':36,'itemlayout':list_item_layout,'value':self.list_weishi_name,'width':0.95,'marginSize':5}
+                {'type':'space','width':10},
+                {'type':'list','name':'list1','itemheight':30,'itemlayout':list_item_layout,'value':self.list_weishi_name,'marginSize':3},
+                {'type':'space','width':10}
             ],
-             {'type':'space','height':22}
+             {'type':'space','height':10}
         ]
 
-        result, controls = self.player.doModal('test', 400, 600, '我要看电视', controls)
+        result, controls = self.player.doModal('test', 740, 750, '我要看电视', controls)
         print(f'{result=},{controls=}')
 
     def onListItemClick(self, page, control, item):
@@ -53,12 +60,22 @@ class weishiplugin(StellarPlayer.IStellarPlayerPlugin):
         keyName = self.list_weishi_name[item]
         key = ""
         index = 0
+        print(f'onListItemControlClick,{item=}')
         if itemControl == 'weishi':
             key = keyName["weishi"]
-            index = (item + 1) * 2 - 2
-        else:
+            index = (item + 1) * 5 - 5
+        elif itemControl == 'weishi1':
             key = keyName["weishi1"]
-            index = (item + 1) * 2 - 1
+            index = (item + 1) * 5 - 4
+        elif itemControl == 'weishi2': 
+            key = keyName["weishi2"]
+            index = (item + 1) * 5 - 3
+        elif itemControl == 'weishi3': 
+            key = keyName["weishi3"]
+            index = (item + 1) * 5 - 2
+        elif itemControl == 'weishi4': 
+            key = keyName["weishi4"]
+            index = (item + 1) * 5 - 1
         self.player.play(self.list_weishi[index]['link'])
     def stop(self):
         super().stop()

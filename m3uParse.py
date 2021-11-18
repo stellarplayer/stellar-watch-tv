@@ -58,7 +58,7 @@ class m3uParse:
 
     def getListName(self):
         tkeys = [i['weishi'] for i in self.m3uList]
-        tmp2 = [{'weishi': tkeys[i], 'weishi1': tkeys[i + 1]} for i in range(0, len(tkeys), 2)]
+        tmp2 = [{'weishi': tkeys[i], 'weishi1': tkeys[i + 1],'weishi2': tkeys[i + 2],'weishi3': tkeys[i + 3],'weishi4': tkeys[i + 4]} for i in range(0, len(tkeys), 5)]
         return tmp2
 
 
@@ -69,6 +69,6 @@ if __name__ == "__main__":
      ##   print(key)
     print("------------------------------------")
     tkeys = [i['weishi'] for i in tmp]
-    tmp2 = [{'weishi':tkeys[i], 'weishi1':tkeys[i + 1]} for i in range(0, len(tkeys), 2)]
+    tmp2 = [{'weishi':tkeys[i], 'weishi1':tkeys[i + 1], 'weishi2':tkeys[i + 2], 'weishi3':tkeys[i + 3],'weishi4': tkeys[i + 4]} for i in range(0, len(tkeys), 5)]
     print(tmp2)
     print(len(tmp2))
