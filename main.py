@@ -50,7 +50,7 @@ class weishiplugin(StellarPlayer.IStellarPlayerPlugin):
              {'type':'space','height':10}
         ]
 
-        result, controls = self.player.doModal('test', 740, 750, '我要看电视', controls)
+        result, controls = self.player.doModal('test', 740, 780, '我要看电视', controls)
         print(f'{result=},{controls=}')
 
     def onListItemClick(self, page, control, item):
@@ -76,7 +76,10 @@ class weishiplugin(StellarPlayer.IStellarPlayerPlugin):
         elif itemControl == 'weishi4': 
             key = keyName["weishi4"]
             index = (item + 1) * 5 - 1
-        self.player.play(self.list_weishi[index]['link'])
+        try:
+            self.player.play(self.list_weishi[index]['link'],caption=self.list_weishi[index]['weishi'])
+        except:
+            self.player.play(self.list_weishi[index]['link'])
     def stop(self):
         super().stop()
         print("pugin stop")
