@@ -1,4 +1,5 @@
 import StellarPlayer
+import os
 from .m3uParse import m3uParse
 
 
@@ -12,11 +13,8 @@ class weishiplugin(StellarPlayer.IStellarPlayerPlugin):
     def show(self):
         print('ui start')
 
-        test = m3uParse()
-        filePath = __file__
-        pos = filePath.rindex('\\')
-        filePath2 = filePath[0:pos]
-        newFilePath = filePath2 +  "\\" + "weishi.m3u"
+        test = m3uParse()   
+        newFilePath = os.path.join(os.path.dirname(__file__), "weishi.m3u")
         self.list_weishi = test.openFile(newFilePath)
         self.list_weishi_name = test.getListName()
 
