@@ -219,3 +219,13 @@ http://112.25.48.68/live/program/live/jjkt/1300000/mnf.m3u8
 http://111.63.117.13:6060/030000001000/G_CETV-2/G_CETV-2.m3u8
 #EXTINF:-1 tvg-id="JiShiRenWen.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",纪实人文
 http://39.135.138.59:18890/PLTV/88888910/224/3221225655/index.m3u8
+#EXTINF:-1 tvg-id="FujiTV.jp" tvg-country="JP" tvg-language="Jpanese" tvg-logo="" group-title="",富士电视台
+http://redlabmcdn.s.llnwi.net/nv02/ryowa7hd/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="TBS.jp" tvg-country="JP" tvg-language="Jpanese" tvg-logo="" group-title="",TBS
+http://redlabmcdn.s.llnwi.net/nv02/ryowa5hd/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="Tokyo.jp" tvg-country="JP" tvg-language="Jpanese" tvg-logo="" group-title="",东京电视台
+http://redlabmcdn.s.llnwi.net/nv02/ryowa6hd/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="NHK G.jp" tvg-country="JP" tvg-language="Jpanese" tvg-logo="" group-title="",NHK G综合
+http://redlabmcdn.s.llnwi.net/nv02/ryowa2hd/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="Asahi.jp" tvg-country="JP" tvg-language="Jpanese" tvg-logo="" group-title="",朝日电视台
+http://redlabmcdn.s.llnwi.net/nv02/ryowa4hd/tracks-v1a1/mono.m3u8
